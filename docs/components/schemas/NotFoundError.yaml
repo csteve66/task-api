@@ -1,0 +1,9 @@
+title: NotFoundError
+type: object
+description: Returned when the requested resource cannot be found.
+required:
+  - message
+properties:
+  message:
+    type: string
+    description: Human readable error message.
